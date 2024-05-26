@@ -6,7 +6,7 @@ add_newline = true
 
 format = """
 $os$directory$git_branch$lua$rust$python$terraform$kubernetes$fill$azure$aws
-$status$character """
+$cmd_duration$status$character"""
 
 palette = "catppuccin_macchiato"
 
@@ -55,6 +55,11 @@ success_symbol = '[ ](bold green)'
 format = '[$symbol$signal_name$maybe_int]($style) '
 map_symbol = true
 disabled = false
+
+# GENERAL 
+[cmd_duration]
+min_time = 100
+format = '[$duration ](bold flamingo)'
 
 # LANGUAGES
 [lua]
