@@ -5,7 +5,7 @@
 add_newline = true
 
 format = """
-$os$directory$git_branch$lua$rust$python$terraform$kubernetes$fill$azure
+$os$directory$git_branch$lua$rust$python$terraform$kubernetes$fill$azure$aws
 $status$character """
 
 palette = "catppuccin_macchiato"
@@ -79,7 +79,9 @@ format = '[$symbol($subscription)]($style) '
 symbol = '󰠅 '
 style = 'blue bold'
 [aws]
-disabled = true
+format = '[$symbol($profile )($region)]($style)'
+symbol = '  '
+style = 'bold peach'
 
 
 # CONTAINERS AND ORCHESTRATION
