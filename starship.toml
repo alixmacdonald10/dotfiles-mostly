@@ -52,7 +52,7 @@ success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set
 [status]
 symbol = '[ ](bold red)'
 success_symbol = '[ ](bold green)'
-format = '[$symbol$common_meaning$signal_name$maybe_int]($style) '
+format = '[$symbol$signal_name$maybe_int]($style) '
 map_symbol = true
 disabled = false
 
