@@ -5,8 +5,7 @@
 add_newline = true
 
 format = """
-$os$directory$git_branch$lua$rust$python$terraform$kubernetes$fill$azure$aws
-$cmd_duration$status$character"""
+$os$directory$git_branch$lua$rust$python$terraform$kubernetes$fill$azure$aws\n$cmd_duration$status$character"""
 
 palette = "catppuccin_macchiato"
 
